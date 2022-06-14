@@ -6,7 +6,7 @@ class PlacementTest < ActiveSupport::TestCase
   # end
 
   setup do
-    @placement = placement(:one)
+    @placement = placements(:one)
   end
 
   test 'decreases the product quantity by the placement quantity' do
